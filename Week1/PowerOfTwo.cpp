@@ -9,14 +9,14 @@ int main()
 	
 	bool bIsPowerOfTwo = true;
 
-	do 
+	while (iInput != 1)
 	{
 		if (iInput % 2 != 0) {
 			bIsPowerOfTwo = false;
 			break;
 		}
 		iInput /= 2;
-	} while (iInput != 1);//mistake 
+	} //mistake 
 	if (bIsPowerOfTwo)
 		std::cout << "Entered number is power of two";
 	else
