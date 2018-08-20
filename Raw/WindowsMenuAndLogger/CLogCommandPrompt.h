@@ -8,6 +8,6 @@ public:
 	~CLogCommandPrompt();
 
 	bool Initialise(const char* _pcIniFilename);
-	void Write(const char* _pcMessage);
+	//void Write(const char* _pcMessage)override;
 };
 

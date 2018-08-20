@@ -5,7 +5,7 @@ class ILogTarget;
 class CLogManager 
 {
 public:
-	CLogManager();
+	CLogManager(); 
 	~CLogManager();
 
 	bool Initialise(const char* _pcIniFilename);
